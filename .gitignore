@@ -1,0 +1,99 @@
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.idea/
+.vshistory/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.lock.json
+
+# Local settings
+appsettings.local.json
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# Visual Studio for Mac
+.idea
+.DS_Store
+*.userprefs
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Azure deployment settings
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+*.publishsettings
+
+# Azure Logic App local development files
+*.logic.json
+logic/*.test.json
+apim/*.local.json
+
+# Microsoft Azure Web App publish settings files
+*.PublishSettings
+PublishScripts/
+
+# Temporary files
+*~
+*.bak
+*.cache
+*.tmp
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
