@@ -6,8 +6,7 @@ This project demonstrates how to export Power BI reports to PDF format using RES
 
 In Power BI Service, we can export reports in PDF format and easily create documents or slides based on Power BI Reports. This project provides two implementation approaches:
 
-1. **Azure Logic App**: Uses a Logic App workflow to orchestrate the API calls (documented in original project)
-2. **.NET Console Application**: A standalone C# application that demonstrates the complete export workflow
+1. **.NET Console Application**: A standalone C# application that demonstrates the complete export workflow
 
 Both methods follow the same workflow but differ in their implementation approach and deployment model.
 
@@ -96,3 +95,16 @@ The application supports flexible configuration through:
 - User secrets for development
 
 For detailed setup instructions and advanced configuration options, see the [PowerBIExportConsole README](PowerBIExportConsole/README.md).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributors
+
+This project is maintained by:
+
+- **Eric Leonard** ([@erleonard](https://github.com/erleonard)) - Project maintainer and primary contributor
+- **Joel Hebert** ([@hebe0022](https://github.com/hebe0022)) - Contributor
+
+**Note:** This is a demonstration project. For production use, ensure you implement appropriate security measures, error handling, and monitoring according to your organization's requirements.
